@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="log.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button id="theme-switch" aria-label="Toggle dark mode">
+      <i class="bx bx-moon"></i>
+      <i class="bx bx-sun"></i>
+    </button>
+
+    <div class="login-box">
+      <form action="#">
+        <h2>welcome Back</h2>
+
+        <div class="input-box">
+          <span class="icon"><i class="bx bx-envelope"></i></span>
+          <input type="email" required />
+          <label>Email</label>
+        </div>
+
+        <div class="input-box">
+          <span class="icon"><i class="bx bx-lock-alt"></i></span>
+          <input type="password" required />
+          <label>Password</label>
+        </div>
+
+        <div class="remember-forgot">
+          <label> <input type="checkbox" />Remember Me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit">Login</button>
+
+        <div class="register-link">
+          <p>
+            Don't have an account?
+            <a href="#"> Register</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <footer class="login-footer">
+      <div class="copyright">
+        <p>&copy; 2024 BHOK LAGO. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
