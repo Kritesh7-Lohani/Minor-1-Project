@@ -194,7 +194,8 @@ section {
 }
 
 .about-text p {
-  font-size: var(--p-font);
+  font-size: 1.2rem;
+  line-height: 1.9;
 }
 
 .heading {
