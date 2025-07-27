@@ -127,7 +127,7 @@ h2 {
 }
 
 .input-box input:focus ~ label,
-.input-box input:valid ~ label {
+.input-box input:not(:placeholder-shown) ~ label {
   top: -10px;
   font-size: 0.8em;
   color: var(--main-color);
